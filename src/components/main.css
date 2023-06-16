@@ -1,0 +1,143 @@
+/* for mobile */
+@media (max-width: 576px) { 
+    .search-bar{
+        justify-content: center;
+        text-align: center;
+    }
+    form label{
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    .search-bar form{
+        background-image: linear-gradient(to right ,rgb(142, 239, 244), rgb(189, 211, 219));
+        padding-bottom:2%;
+        margin-bottom: 2%;
+        padding-top: 2%;
+    }
+    form input{
+        height: 3vh;
+    }
+    button{
+        height: 4vh;
+    }
+    body{
+        background-color: rgb(215, 238, 239);
+    }
+    .image-list{
+        margin-left: 5%;
+        margin-right: 5%; 
+        padding-left:4%;
+        padding-right:4%;
+        text-align: center;
+    }
+    .image-show{
+        display: inline-block;
+        margin-bottom: 13%;
+    }
+    img{
+        width: 70vw;
+        height: 45vh;
+    }
+    .description{
+        display:inline-block;
+    }
+    .txthide{
+        visibility: hidden;
+    }
+}
+
+/* for tablets*/
+@media (min-width: 576px) and (max-width:768px ) { 
+    .search-bar{
+        justify-content: center;
+        text-align: center;
+    }
+    form label{
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    .search-bar form{
+        background-image: linear-gradient(to right ,rgb(244, 186, 104), rgb(246, 237, 216));
+        padding-bottom:2%;
+        margin-bottom: 2%;
+        padding-top: 2%;
+    }
+    form input{
+        height: 3vh;
+    }
+    button{
+        height: 4vh;
+    }
+    body{
+        background-color: rgb(244, 241, 216);
+    }
+    .image-list{
+        /* margin-left: 8%;
+        margin-right: 8%; */
+        padding-left:4%;
+        padding-right:4%;
+        text-align: center;
+    }
+    .image-show{
+        display: inline-block;
+        margin:3%
+    }
+    img{
+        width: 30vw;
+        height: 42vh;
+    }
+    .description{
+        display:inline-block;
+    }
+    .txthide{
+        visibility: hidden;
+    }
+    }
+
+/* for laptops*/
+@media (min-width:768px ){ 
+        .search-bar{
+            justify-content: center;
+            text-align: center;
+        }
+        form label{
+            text-align: center;
+            font-size: 1.8rem;
+        }
+        .search-bar form{
+            background-image: linear-gradient(to right ,rgb(175, 212, 216), rgb(235, 240, 232));
+            padding-bottom:2%;
+            margin-bottom: 2%;
+            padding-top: 2%;
+        }
+        form input{
+            height: 3vh;
+        }
+        button{
+            height: 4vh;
+        }
+        body{
+            background-color: rgb(225, 237, 238);
+        }
+        .image-list{
+            /* margin-left: 8%;
+            margin-right: 8%; */
+            padding-left:4.5%;
+            padding-right:4.5%;
+            text-align: center;
+        }
+        .image-show{
+            display: inline-block;
+            margin:3%
+        }
+        img{
+            width: 20vw;
+            height: 42vh;
+        }
+        .description{
+            display:inline-block;
+        }
+        .txthide{
+            visibility: hidden;
+        }
+    }
