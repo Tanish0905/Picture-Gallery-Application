@@ -11,7 +11,6 @@ function ImageShow({image}) {
   let p1 ;
   let p2 ;
   let p3 ;
-  let p ;
   if(Length<26){
      p1 = <>{Description}</> ;
      p2=<br/>
